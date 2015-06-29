@@ -1,0 +1,8 @@
+project/project
+project/target
+target
+.lib
+.idea
+*.sublime-workspace
+.DS_Store
+*.out

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+JAR=target/scala-2.10/accumulo-spark.jar
+
+DRIVER_MEMORY=8G
+
+EXECUTOR_MEMORY=8G
+
+MASTER=local[8]
+
+zip -d $JAR META-INF/ECLIPSEF.RSA
+zip -d $JAR META-INF/ECLIPSEF.SF
+
+spark-submit \
+--class jobs.AccumuloTest \
+--master $MASTER \
+--driver-memory $DRIVER_MEMORY \
+--executor-memory $EXECUTOR_MEMORY \
+$JAR \
+--instance gis --user root --password secret --zookeeper localhost \
+--table accumulo.metadata
