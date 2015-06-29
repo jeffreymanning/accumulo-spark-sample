@@ -4,7 +4,9 @@ Sample of project with test jobs to run with Apache Accumulo and Apache Spark.
 
 ### Pre-build
 
-Configuration used to test sample:
+You can use [Accumulo Spark environment](https://github.com/pomadchin/accumulo-spark), to test jobs sample, or to use your own environment.
+
+Configuration used:
 
 * Java 7 / 8
 * Hadoop 2.6.x / 2.7.x
