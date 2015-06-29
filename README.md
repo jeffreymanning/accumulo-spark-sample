@@ -14,9 +14,9 @@ Configuration used to test sample:
 
 ### Build
 
-* `./sbt assembly` -- to build a fat jar,
-* `./raw-spark-test.sh` -- sample of run spark only job (WordCount),
-* `./accumulo-test.sh` -- sample of run accumulo query.
+* `./sbt assembly` — to build a fat jar,
+* `./raw-spark-test.sh` — sample of run spark only job (WordCount),
+* `./accumulo-test.sh` — sample of run accumulo query.
 
 ## License
 
