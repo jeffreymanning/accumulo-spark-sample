@@ -4,7 +4,7 @@ Sample of project with test jobs to run with Apache Accumulo and Apache Spark.
 
 ### Pre-build
 
-You can use [Accumulo Spark environment](https://github.com/pomadchin/accumulo-spark), to test jobs sample, or to use your own environment.
+You can use [Accumulo Spark environment in Docker containers](https://github.com/pomadchin/accumulo-spark), to test jobs sample, or to use your own environment.
 
 Configuration used:
 
